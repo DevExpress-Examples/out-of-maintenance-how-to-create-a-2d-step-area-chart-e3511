@@ -5,17 +5,12 @@
 <!-- default file list end -->
 # How to create a 2D Step Area chart
 
+The following example demonstrates how to create a [2D Step Area](https://docs.devexpress.com/WPF/9992/controls-and-libraries/charts-suite/chart-control/fundamentals/series-fundamentals/2d-series-types/area-series/step-area?p=netframework) chart.
 
-<p>The following example demonstrates how to create a 2D Step Area chart.</p><br />
+### Description
 
+To do this, it is necessary to assign the [ChartControl.Diagram](https://docs.devexpress.com/WPF/DevExpress.Xpf.Charts.ChartControl.Diagram?p=netframework) property to [XYDiagram2D](https://docs.devexpress.com/WPF/DevExpress.Xpf.Charts.XYDiagram2D?p=netframework), and then add an [AreaStepSeries2D](https://docs.devexpress.com/WPF/DevExpress.Xpf.Charts.AreaStepSeries2D?p=netframework) object with points to the diagram's [Series](https://docs.devexpress.com/WPF/DevExpress.Xpf.Charts.Diagram.Series?p=netframework) collection. 
 
-
-<h3>Description</h3>
-
-<p>To do this, it is necessary to assign the <a href="http://documentation.devexpress.dev/#WPF/DevExpressXpfChartsChartControl_Diagramtopic"><u>ChartControl.Diagram</u></a> property to <a href="http://documentation.devexpress.dev/#WPF/clsDevExpressXpfChartsXYDiagram2Dtopic"><u>XYDiagram2D</u></a>, and then add an <strong>AreaStep</strong><strong>Series2D</strong> object with points to the diagram&#39;s <a href="http://documentation.devexpress.com/#WPF/DevExpressXpfChartsDiagram_Seriestopic"><u>Series</u></a> collection. </p><p>Also, this example shows how to add a chart title.</p><br />
-<br />
-
-
-<br/>
+Also, this example shows how to add a [chart title](https://docs.devexpress.com/WPF/7844/controls-and-libraries/charts-suite/chart-control/chart-elements/chart-titles?p=netframework).
 
 
